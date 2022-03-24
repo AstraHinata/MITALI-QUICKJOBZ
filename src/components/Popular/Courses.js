@@ -1,7 +1,8 @@
 import React from "react";
-import engineering from "../assets/images/engineering.jpg";
-import medical from "../assets/images/arts.jpg";
-import arts from "../assets/images/medical.jpg";
+import './courses.css'
+import engineering from "../../assets/images/engineering.jpg";
+import medical from "../../assets/images/arts.jpg";
+import arts from "../../assets/images/medical.jpg";
 const Courses =  ()=> {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from "react";
 import CategoryCard from "./CategoryCard";
-
+import './categories.css'
 const CategoriesSection = () => {
   return (
     <div>
