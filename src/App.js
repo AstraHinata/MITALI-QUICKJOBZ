@@ -4,16 +4,19 @@ import NavBar from "./components/Nav/NavBar";
 import Courses from "./components/Popular/Courses";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import AboutPage from "./components/Pages/AboutPage/AboutPage";
 
 export default function App() {
   return (
-    <div>
-      <NavBar />
-      <Header />
-      <CategoriesSection />
-      <Courses />
-      <Testimonials/>
-<Footer/>
-    </div>
-  );
+    
+      <div>
+        <NavBar />
+        <Header />
+        <CategoriesSection />
+        <Courses />
+        <Testimonials />
+        <Footer />
+      </div>
+ );
 }
