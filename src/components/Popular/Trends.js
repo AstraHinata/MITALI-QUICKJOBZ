@@ -1,13 +1,13 @@
 import React from "react";
-import './courses.css'
+import './trends.css'
 import engineering from "../../assets/images/engineering.jpg";
 import medical from "../../assets/images/arts.jpg";
 import arts from "../../assets/images/medical.jpg";
-const Courses =  ()=> {
+const Trends =  ()=> {
   return (
     <div>
       <section className="courses">
-        <h2>Our popular courses</h2>
+        <h2>Recent Trends</h2>
         <div className="container courses__container">
           <article className="course">
             <div className="course__image">
@@ -62,4 +62,4 @@ const Courses =  ()=> {
   );
 }
 
-export default Courses;
+export default Trends;

@@ -26,9 +26,11 @@ const NavBar = () => {
   return (
     <nav>
       <div className="container nav__container">
-        <a href="#">
-          <h4>QuickJobz</h4>
-        </a>
+        <Link to={'/'}>
+          <a href="#">
+            <h4>QuickJobz</h4>
+          </a>
+        </Link>
         <ul className="nav__menu">
           <li>
             <Link to={"/"}>

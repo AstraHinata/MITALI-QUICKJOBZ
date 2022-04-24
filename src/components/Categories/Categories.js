@@ -1,6 +1,7 @@
 import React from "react";
 import CategoryCard from "./CategoryCard";
 import './categories.css'
+import { Link } from "react-router-dom";
 const CategoriesSection = () => {
   return (
     <div>
@@ -14,9 +15,11 @@ const CategoriesSection = () => {
               minima facere aliquam ipsam eius rerum corrupti, nesciunt labore.
               Ipsam, doloribus!
             </p>
-            <a href="#" className="btn">
-              Explore
-            </a>
+            <Link to={"/jobcategories"}>
+              <a href="#" className="btn">
+                Explore
+              </a>
+            </Link>
           </div>
           <div className="categories__right">
             <CategoryCard

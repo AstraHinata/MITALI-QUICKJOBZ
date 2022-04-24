@@ -1,0 +1,102 @@
+.aboutpage__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./bgxy.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.about__container-insider{
+    height: 45rem;
+    margin-bottom: 5rem;
+    width: var(  --container-width-lg);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    padding: 1.3rem;
+    border: 1px solid var(--color-light);
+    backdrop-filter: blur(10px);
+    display: grid; 
+    grid-template-columns: 65% auto;
+    gap: 1rem;
+}
+
+.about__container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .4rem;
+    gap: 1.2rem;
+    background-color: rgba(221, 221, 221, 0.336);
+    padding: 1rem 3rem;
+}
+.about__container-right{
+    border-radius: .4rem;
+    background-image: url(./about-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.about-btn{
+    margin-top: 2rem;
+    border: 2px solid rgba(221, 221, 221, 0.336);
+    color: #f6f6f6;
+    width: 200px;
+    text-align: center;
+    padding:   1rem 0 ;
+    transition: var(--transition);
+}
+
+.about-btn:hover{
+    background: transparent;
+    border-color: white;
+
+}
+@media screen and (max-width:1024px){
+
+      .about__container-insider{
+        width: var(--container-width-sm);
+        overflow: scroll;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .about__container-right{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width:600px){
+    .about__container-insider{
+        width: var(--container-width-sm);
+        overflow: scroll;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70% 30%; 
+        padding: 0;
+    }
+
+    .about__container-right{
+       border-radius: 0;
+       display: flex;
+    }
+    .about__container-left{
+        margin-top: 1rem;
+        background-color: transparent;
+
+        gap: .4rem;
+        padding: 1.9rem 2rem;
+
+ }
+ .about__container-left h1{
+     font-size: 1.9rem;
+ }   
+ .about__container-left p{
+     font-size: .9rem;
+ }
+}

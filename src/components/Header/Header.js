@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import headerImg from '../../assets/images/one.png'
 import './header.css'
 
@@ -12,9 +13,9 @@ const Header = ()=> {
             With QuickJobz, you can hire people to get your job done! <br/>
     And if you are looking for getting hired you are at right place
           </p>
-          <a href="#" className="btn btn-primary">
+        <Link to={'/getstarted'}>  <a href="#" className="btn btn-primary">
             Get Started
-          </a>
+          </a></Link>
         </div>
         <div className="header__right">
           <div className="header__right-img">
