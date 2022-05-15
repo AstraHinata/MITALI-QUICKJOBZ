@@ -26,7 +26,7 @@
   --color-bg1: #2e3267;
   --color-bg2: #424890;
 
-  --container-width-lg: 76%;
+  --container-width-lg: 86%;
   --container-width-md: 90%;
   --container-width-sm: 94%;
 
@@ -45,9 +45,6 @@ body {
   margin: 0 auto;
 }
 
-section {
-  padding: 6rem 0;
-}
 section h2 {
   text-align: center;
   margin-bottom: 4rem;
